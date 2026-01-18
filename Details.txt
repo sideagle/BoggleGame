@@ -1,0 +1,2 @@
+Setup Sveltekit Frontent
+Setup Flask API and code game logic
