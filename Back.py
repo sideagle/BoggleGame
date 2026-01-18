@@ -117,15 +117,15 @@ class BoggleGame:
         # Scoring: 3-4 letters = 1 point, 5 = 2, 6 = 3, 7 = 5, 8+ = 11
         length = len(word)
         if length <= 4:
-            points = 1
+            points = 100
         elif length == 5:
-            points = 2
+            points = 400
         elif length == 6:
-            points = 3
+            points = 800
         elif length == 7:
-            points = 5
+            points = 1200
         else:
-            points = 11
+            points = 2000
         self.score += points
         return points
 
